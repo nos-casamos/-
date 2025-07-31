@@ -9,7 +9,7 @@ var rtl = false;                                //Set to true if your website is
 var onepage_nav = true;                         //If true, each menu item will highlight when scrolling to each respective section.
 
 //MOBILE MENU TITLE
-var mobile_menu_title = "Menu";                 //The title of the mobile menu.
+var mobile_menu_title = "Menú";                 //The title of the mobile menu.
 
 //HERO FULLSCREEN VARIABLE
 var hero_full_screen = true;                    //If true, the hero section will fit to screen size. If false, hero height will be the height of its content.
@@ -32,11 +32,11 @@ var contact_form_recaptcha_error_msg = "Error verifying reCaptcha!";
 
 
 //COUNTDOWN VARIABLES
-var c_days = "DAYS";                            //Countdown "Days" label
-var c_hours = "HOURS";                          //Countdown "Hours" label
+var c_days = "DÍAS";                            //Countdown "Days" label
+var c_hours = "HORAS";                          //Countdown "Hours" label
 var c_minutes = "MIN.";                         //Countdown "Minutes" label
-var c_seconds = "SEC.";                         //Countdown "Seconds" label
-var countdown_end_msg = "Event Started!";       //Message to display when the countdown reaches the end
+var c_seconds = "SEG.";                         //Countdown "Seconds" label
+var countdown_end_msg = "¡Ya comenzamos!";       //Message to display when the countdown reaches the end
 
 
 //GOOGLE MAP VARIABLES
