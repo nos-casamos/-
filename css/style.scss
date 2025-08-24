@@ -48,10 +48,10 @@
 
 /* #Variables
 ================================================== */
-$color:  #d79dac; /* original: #8eaeba; */;
+$color: #ba8293;  /* original: #8eaeba; otro bueno: #c7859c; */;
 $text-color: #73777b;
 $sat-color: saturate($color, 6%);
-$color-overlay: darken($color, 33%);
+$color-overlay: darken($color, 20%);
 $section-bg-color: #f9f9f9;
 
 $font-family: 'Poppins', sans-serif;
@@ -139,11 +139,11 @@ $pattern: url('../images/neela-pattern.png');
 /* #Sections with background image
 ================================================== */
 #our-story-title{
-    @include background-image-retina("https://via.placeholder.com/1920x1080", 'png');
+    @include background-image-retina("C:/Users/kcontrerasm/invitacion/-/images/pexels-lana-d-134457683-10329445", 'jpg');
 }
 
 #the-wedding{
-	@include background-image-retina("images\ramospreservados", 'png');
+	@include background-image-retina("C:/Users/kcontrerasm/invitacion/-/images/ramospreservados2", 'png');
 }
 
 #bridesmaids,
@@ -1835,7 +1835,7 @@ p.center{
 		top:0;
 		background-color:$color-overlay;
 		z-index: 0;
-		@include opacity(0.4);
+		@include opacity(0.5);
 	}
 
 	> .container{
