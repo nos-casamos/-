@@ -2455,18 +2455,16 @@ p.center {
   right: 15%;
 }
 .timeline .template-2 .videoEmbed {
-  grid-column: 1/span 16;
+  grid-column: 3/span 16;
   grid-row: 1;
   z-index: 3;
   max-width: 100%;
 }
-.timeline .template-2 .videoEmbed img,
-.timeline .template-2 .videoEmbed iframe,
-.timeline .template-2 .videoEmbed embed,
-.timeline .template-2 .videoEmbed object {
+.timeline .template-2 .videoEmbed img {
   border: 10px solid #fff;
   background: #fff;
   width: 100%;
+  height: auto;
   display: block;
 }
 .timeline .template-2 .image-1 {
