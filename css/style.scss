@@ -138,12 +138,19 @@ $pattern: url('../images/neela-pattern.png');
 
 /* #Sections with background image
 ================================================== */
+.page-header{
+    @include background-image-retina("../images/pexels-lana-d-134457683-10329445", 'jpg');
+}
+.page-header{
+    @include background-image-retina("../images/ramospreservados2", 'png');
+}
+
 #our-story-title{
-    @include background-image-retina("https://github.com/nos-casamos/-/tree/main/images/pexels-lana-d-134457683-10329445.jpg", 'jpg');
+    @include background-image-retina("../images/pexels-lana-d-134457683-10329445", 'jpg');
 }
 
 #the-wedding{
-	@include background-image-retina("https://github.com/nos-casamos/-/tree/main/images/ramospreservados2.png", 'png');
+	@include background-image-retina("../images/ramospreservados2", 'png');
 }
 
 #bridesmaids,
