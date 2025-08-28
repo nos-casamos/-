@@ -2447,25 +2447,36 @@ p.center {
   grid-row: 1;
   margin-top: 100%;
 }
+.timeline .template-2 {
+  /*
+  .videoEmbed{
+  	grid-column: 3 / span 16;
+  	grid-row: 1;
+  	z-index: 3;
+  	max-width: 100%;
+  	//,
+  	//iframe,
+  	//embed,
+  	//object
+
+  	img{
+  		border:10px solid #fff;
+  		background: #fff;
+  		width: 100%;
+  		height:auto;
+  		display: block;
+
+  	}
+
+  }
+        */
+}
 .timeline .template-2::after {
   bottom: 20px;
 }
 .timeline .template-2 .date {
   top: 90px;
   right: 15%;
-}
-.timeline .template-2 .videoEmbed {
-  grid-column: 3/span 16;
-  grid-row: 1;
-  z-index: 3;
-  max-width: 100%;
-}
-.timeline .template-2 .videoEmbed img {
-  border: 10px solid #fff;
-  background: #fff;
-  width: 100%;
-  height: auto;
-  display: block;
 }
 .timeline .template-2 .image-1 {
   grid-column: 13/-1;
