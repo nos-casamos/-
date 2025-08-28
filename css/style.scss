@@ -139,11 +139,11 @@ $pattern: url('../images/neela-pattern.png');
 /* #Sections with background image
 ================================================== */
 #our-story-title{
-    @include background-image-retina("images/pexels-lana-d-134457683-10329445", 'jpg');
+    @include background-image-retina("/images/pexels-lana-d-134457683-10329445", 'jpg');
 }
 
 #the-wedding{
-	@include background-image-retina("images/ramospreservados2", 'png');
+	@include background-image-retina("/images/ramospreservados2", 'png');
 }
 
 #bridesmaids,
