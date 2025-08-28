@@ -5973,4 +5973,11 @@ textarea.form-control {
   .background-video {
     position: absolute;
   }
-}/*# sourceMappingURL=style.css.map */
+}
+/*
+@media (max-width:600px){
+    .custom-centered{
+        margin-bottom: 1cm;
+    }
+}
+*//*# sourceMappingURL=style.css.map */
